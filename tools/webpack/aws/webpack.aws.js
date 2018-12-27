@@ -34,7 +34,7 @@ export default {
   ],
 
   output: {
-    path: abs("dist/assets"),
+    path: abs("dist"),
     filename: "[name].[hash].js",
     chunkFilename: "[name].[hash].chunk.js",
     publicPath: "./"
